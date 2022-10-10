@@ -1,3 +1,5 @@
 import streamlit as st
 st.title("shilpi")
-st.ballons()
+start = st.button("start")
+if start:
+  st.ballons()
